@@ -1,6 +1,6 @@
-# Production-data-for-WRP-AFAL
+# Production data for WRP AFAL
 
-This repository is for the related data in paper "An evolutionary knowledge transfer framework for solving workgroup reconfiguration problem in aircraft final assembly".
+This repository is for the related data in paper **"An evolutionary knowledge transfer framework for solving workgroup reconfiguration problem in aircraft final assembly"**.
 
 W1.json-W5.json represent the task precedent constraint of five workstations in A1. Each element of the global list of each JSON file is the constraint information for a sub-workstation, represented using a dictionary. Each key-value pair of the dictionary represents a task and its set of predecessors. In the case of W1.json, for example, for task T1_1_1, T1_1_18 is its predecessor task.
 
